@@ -1,0 +1,59 @@
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  position: relative;
+}
+.Main {
+  width: 600px;
+  height: 600px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.Title {
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 1px solid;
+}
+.Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.Slot {
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.Slot_Name {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+.Name {
+  margin-top: 5px;
+  width: 170px;
+}
+.Slot_time {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.Time {
+  margin-top: 5px;
+}
+.Button {
+  margin-top: 20px;
+}

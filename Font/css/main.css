@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  position: relative;
+}
+.Main {
+  width: 600px;
+  height: 400px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.Title_text {
+  height: 30px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.bt {
+  width: 100px;
+  height: 30px;
+}
+.bt_text {
+  text-decoration: none;
+  color: black;
+}
+.Function {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Function-item {
+  width: 300px;
+  height: 40px;
+  margin: 40px 0px;
+  border-radius: 20px;
+}
+.text {
+  text-decoration: none;
+  color: black;
+}

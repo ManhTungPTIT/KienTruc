@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  position: relative;
+}
+.Main {
+  width: 600px;
+  height: 600px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.Title {
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  padding-top: 5px;
+}
+.MainHome {
+  overflow: auto;
+  height: 550px;
+  width: 100%;
+}
+.Item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Add {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 5px 0px;
+  background-color: rgb(54, 191, 97);
+  color: white;
+  cursor: pointer;
+}
+.Item_name {
+  margin: 15px 20px 0px;
+}
+.Item_price {
+  margin: 15px 20px 0px;
+}
+.text {
+  height: 30px;
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+.Function {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.button {
+  border-radius: 10px;
+  width: 80px;
+  height: 20px;
+  margin: 5px 100px;
+  cursor: pointer;
+  background-color: rgb(54, 191, 97);
+  color: white;
+  border: 0;
+}

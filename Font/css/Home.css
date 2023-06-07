@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  position: relative;
+}
+.Main {
+  width: 600px;
+  height: 400px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.Notification {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  height: 40px;
+}
+.Function {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Item {
+  width: 300px;
+  height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Item_text {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  position: relative;
+}
+.Main {
+  width: 600px;
+  height: 650px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.Title {
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 1px solid;
+}
+.Info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.text {
+  width: 200px;
+  height: 30px;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.Service {
+  height: 470px;
+  overflow: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Item {
+  display: flex;
+  flex-direction: row;
+
+  height: 30px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.Service_text {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 270px;
+  justify-content: space-between;
+}
+.Button {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.bt {
+  width: 100px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.Confirm {
+  margin: 10px 250px;
+}
